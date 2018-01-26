@@ -1,0 +1,26 @@
+.cardToDisplay{
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 0.1em 0.1em 0.5em #CCCCCC;
+    display:inline-block;
+    width: 10em;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.CardImage{
+    margin-left: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.DivImage{
+    width: 100%;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
