@@ -16,6 +16,9 @@
     width: 100%;
     height: 100%;
     display: block;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    
 }
 
 .DivImage{
@@ -23,4 +26,14 @@
     margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+.cardActions {
+  display: flex;
+  box-sizing:border-box;
+display: inline-block;
+  align-items: center;
+}
+.cardActions > .buttonIcon {
+  margin-right: 3px;
+  margin-left: 3px;
 }
