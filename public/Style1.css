@@ -3,12 +3,13 @@
     background-color: white;
     box-shadow: 0.1em 0.1em 0.5em #CCCCCC;
     display:inline-block;
-    width: 10em;
-    height: 20em;
+    width: 15em;
+    height: 18em;
     margin-left: auto;
     margin-right: auto;
     display: block;
     text-align: center;
+    position:relative
 }
 
 .CardImage{
@@ -28,12 +29,27 @@
 	display: block;
 }
 .cardActions {
-  display: flex;
-  box-sizing:border-box;
-display: inline-block;
-  align-items: center;
+    display: flex;
+    box-sizing:border-box;
+    display: inline-block;
+    align-items: center;
 }
 .cardActions > .buttonIcon {
-  margin-right: 3px;
-  margin-left: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.cardButtons{
+    
+    background-color: aqua;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: none;
+    height: 2em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    position:absolute;
+    bottom:0;
 }
