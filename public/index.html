@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <!--script src="//storage.googleapis.com/code.getmdl.io/1.0.1/material.min.js"></script-->
     <link rel="stylesheet" href="Style1.css" />  
     <title>CSS/HTML Workshop with Convargo</title>
-  
   </head>
-  <body>
-      
-    <div  class="cardToDisplay">
-        <figure class = "DivImage">
-            <img class = "CardImage" src="landscape.jpg" alt="" />
-        </figure>
-        <div class="cardActions">
-        <div >
-            <h3 class="mdl-card__title-text">Learning Web Design</h3>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-            <button class="cardActions.buttonIcon cardButtons">
-            Bonobo</button>
-        </div>
+    
+    
+    <title>The convargo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<body>
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s6">
+      <a href="#Choice" class="w3-button w3-block w3-black">Calculate</a>
+    </div>
+    <div class="w3-col s6">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-sand w3-grayscale w3-large">
+    
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE WEBSITE</span></h5>
+    <p>This website calculates how much you need to pay depending many factor</p>
+    <p>In addition to any delivey you may ask, you can also add the franchise</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p>Me myself and i, Youness</p>
     </div>
     
-      
+    <p><strong>Where to find us</strong> Somewhere, everywhere</p>
+    <p><strong>Contact:</strong> I don't really know</p>
+  </div>
+</div>
+
+
+    
+
+
+    <div id = "Choice" class="important">
     <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+      <input class="name w3-input w3-padding-16 w3-border " type="text" placeholder="Trucker name"/>
+      <input class="price-by-km w3-input w3-padding-16 w3-border" type="number" placeholder="Price by km"/>
+      <input class="price-by-cubic w3-input w3-padding-16 w3-border" type="number" placeholder="Price by m3"/>
     </div>
     <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <input class="name w3-input w3-padding-16 w3-border" type="text" placeholder="Shipper name"/>
+      <input class="distance w3-input w3-padding-16 w3-border" type="number" placeholder="Distance in km"/>
+      <input class="volume w3-input w3-padding-16 w3-border" type="number" placeholder="Volume in m3"/>
+      <input class="option w3-input w3-padding-16 w3-border" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
     <script src="convargo.js"></script>
     <script src="index.js"></script>
-  </body>
+    </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p><a href="https://www.w3schools.com/w3css/default.asp" title="Something" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+
+
+</body>
+
+    
 </html>

@@ -1,3 +1,28 @@
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    min-height: 75%;
+}
+
+.important{
+    
+    width: 40em;
+    height: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position:relative
+    
+}
+
+
+.menu {
+    display: none;
+}
 .cardToDisplay{
     border-radius: 1em;
     background-color: white;
@@ -7,7 +32,6 @@
     height: 18em;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     text-align: center;
     position:relative
 }
@@ -16,7 +40,6 @@
     margin-left: auto;
     width: 100%;
     height: 100%;
-    display: block;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
     
@@ -26,7 +49,6 @@
     width: 100%;
     margin-left: auto;
 	margin-right: auto;
-	display: block;
 }
 .cardActions {
     display: flex;
@@ -52,4 +74,14 @@
     left:0;
     position:absolute;
     bottom:0;
+}
+
+.trucker{
+    
+    background-color: white;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position:relative
 }
